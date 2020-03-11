@@ -14,8 +14,8 @@
   h1 {
     position: absolute;
     top: 25%;
-    left: 30%;
-    right: 30%;
+    left: 25%;
+    right: 25%;
     z-index: 1;
     font-weight: 700;
     font-size: 5rem;
@@ -50,22 +50,37 @@
     object-fit: cover;
     object-position: 0 -15rem;
   }
-  section {
-      background-position: 50% 50%;
+  .img-1, .img-2, .img-3, .img-4 {
+    position: relative;
+    opacity: 0.7;
+    min-height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
-  section > img {
-      width: 100%;
-      background-position: 50% 50%;
+  .img-1 {
+    background-image:url("https://www.polandunraveled.com/wp-content/uploads/2016/05/warsaw-skyline-warsaw.jpg");
+  }
+  .img-2 {
+    background-image:url("https://www.aviontourism.com/images/1920-900-fix/bd9ad842-98cc-402d-bf86-391b4a5f0927");
+  }
+  .img-3 {
+    background-image:url("https://visitwroclaw.eu/files/news/ratusz-wroclaw-p_1.jpg");
+  }
+  .img-4 {
+    background-image:url("https://d1bvpoagx8hqbg.cloudfront.net/originals/wrazenia-z-poznania-polska-oczami-marty-bc528c91f09491942ea5dfe5939f916d.jpg");
   }
   .section-1, .section-3 {
-      background-color: #ddd;
-      color: #333;
-      letter-spacing: 1.5px;
+    background-color: #ddd;
+    color: #333;
+    letter-spacing: 1.5px;
   }
   .section-2, .section-4 {
-      background-color: #333;
-      color: #ddd;
-      letter-spacing: 1.5px;
+    background-color: #333;
+    color: #ddd;
+    letter-spacing: 1.5px;
   }
   @keyframes cities { 
     0% { opacity: 0 animation-timing-function: ease-in;}
