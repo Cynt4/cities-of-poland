@@ -50,6 +50,23 @@
     object-fit: cover;
     object-position: 0 -15rem;
   }
+  section {
+      background-position: 50% 50%;
+  }
+  section > img {
+      width: 100%;
+      background-position: 50% 50%;
+  }
+  .section-1, .section-3 {
+      background-color: #ddd;
+      color: #333;
+      letter-spacing: 1.5px;
+  }
+  .section-2, .section-4 {
+      background-color: #333;
+      color: #ddd;
+      letter-spacing: 1.5px;
+  }
   @keyframes cities { 
     0% { opacity: 0 animation-timing-function: ease-in;}
     12% { opacity: 1 animation-timing-function: ease-out;}
