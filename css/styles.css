@@ -168,5 +168,7 @@ header>div>div>img {
   header>div>div>img {
     object-position: 0;
   }
-
+  .section, .section-1, .section-2, .section-3, .section-4 {
+    padding: 1rem 4.5rem;
+  }
 }
