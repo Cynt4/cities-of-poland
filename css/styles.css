@@ -13,6 +13,8 @@ header {
 h1,
 h2,
 p {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
   text-align: center;
 }
 
@@ -93,7 +95,7 @@ header>div>div>img {
   background-image: url("https://d1bvpoagx8hqbg.cloudfront.net/originals/wrazenia-z-poznania-polska-oczami-marty-bc528c91f09491942ea5dfe5939f916d.jpg");
 }
 .section, .section-1, .section-2, .section-3, .section-4 {
-  padding: 1.5rem;
+  padding: 1.5rem 7rem;
   letter-spacing: 1.5px;
 }
 .section-1,
